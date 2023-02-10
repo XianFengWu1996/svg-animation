@@ -48,7 +48,7 @@ body {
     stroke-dashoffset: 0px;
     opacity: 1;
   }
-  32% {
+  39% {
     opacity: 0;
   }
   40%,
@@ -69,14 +69,13 @@ body {
 }
 
 @keyframes updown {
+  /* we want three bounce, therefore animation at 0-33, 33-66, 66-100 */
   0% {
-    transform: translateY(3px);
+    transform: translateY(4px);
   }
-
   50% {
     transform: translateY(0px);
   }
-
   100% {
     transform: translateY(4px);
   }
